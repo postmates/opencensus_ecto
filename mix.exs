@@ -19,7 +19,7 @@ defmodule OpencensusEcto.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:telemetry, "~> 0.4.0"},
+      {:telemetry, "~> 0.4.0 or ~> 1.0"},
       {:opencensus, "~> 0.9.0"}
     ]
   end
